@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-angular-app';
+  message="hello from BridgeLabz using one way Data Bindings"
 }

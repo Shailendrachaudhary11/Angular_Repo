@@ -7,4 +7,6 @@
 </div>
 
 <h1 style="color: red;">Hello from BridgraLabz, {{userName}} !!</h1>
-<input type="text"  [(ngModel)]="userName" placeholder="Enter your Name">
+<input type="text"  [(ngModel)]="userName" (input)="validateName()" placeholder="Enter your Name">
+<br>
+<p *ngIf="errorMessage" style="color: red;">{{errorMessage }}</p>

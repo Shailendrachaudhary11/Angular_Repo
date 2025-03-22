@@ -3,5 +3,8 @@
 
 <div id="logo">
     <h1>BridgeLabz logo</h1>
-    <img [src]="logoUrl" alt="BridgeLabz logo" width="200">
+    <img [src]="logoUrl" alt="BridgeLabz logo" width="200" (click)="openBridgeLabzSite()">
 </div>
+
+<h1 style="color: red;">Hello from BridgraLabz, {{userName}} !!</h1>
+<input type="text"  [(ngModel)]="userName" placeholder="Enter your Name">

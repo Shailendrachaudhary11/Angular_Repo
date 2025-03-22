@@ -9,3 +9,8 @@ h2{
     text-align: center;
     color: black;
 }
+#logo{
+    background-color: gainsboro;
+    align-items: center;
+    text-align: center;
+}
